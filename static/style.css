@@ -89,6 +89,13 @@ p {
   color: var(--light-colour);
 }
 
+li {
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 0.0375em;
+  color: var(--light-colour);
+}
+
 a {
   font-size: 24px;
   text-decoration: none;
