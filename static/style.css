@@ -1,0 +1,118 @@
+:root {
+  --dark-colour: #1c1c1c;
+  --accent-colour: #ee446a;
+  --light-colour: #f0f0f0;
+}
+
+body {
+  background-color: var(--dark-colour);
+  font-family: "Aptos", monospace;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin: -10px;
+  background-color: var(--accent-colour);
+}
+
+header h1 {
+  color: var(--light-colour);
+  text-align: right;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+}
+
+
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: var(--light-colour);
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    letter-spacing 0.5s,
+    font-size 0.5s;
+}
+
+nav a:hover {
+  font-size: 36px;
+  font-weight: bolder;
+  letter-spacing: 0.15em;
+  color: var(--accent-colour);
+  background-color: var(--light-colour);
+}
+
+
+
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+  color: var(--light-colour);
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: var(--light-colour);
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: var(--light-colour);
+}
+
+p {
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  color: var(--light-colour);
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  color: var(--accent-colour);
+}
+
+
+
+
+
+
+.padded-container {
+  display: flex;
+  padding:  50px 50px;
+}
+
+.left-half {
+  width: 50%;
+  margin-right: 25px; 
+}
+
+.right-half {
+  width: 50%;
+  margin-left: 25px; 
+}
+
