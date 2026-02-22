@@ -89,7 +89,7 @@ p {
   color: var(--light-colour);
 }
 
-li {
+ul li {
   font-size: 24px;
   font-weight: lighter;
   letter-spacing: 0.0375em;
